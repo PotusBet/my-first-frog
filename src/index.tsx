@@ -52,7 +52,7 @@ app.frame('/', (c) => {
     ),
     intents: [
       <TextInput placeholder="Enter custom fruit..." />,
-      <Button value="apples">Apples</Button>,
+      <Button value="apples">Apples 1</Button>,
       <Button value="oranges">Oranges</Button>,
       <Button value="bananas">Bananas</Button>,
       status === 'response' && <Button.Reset>Reset</Button.Reset>,
